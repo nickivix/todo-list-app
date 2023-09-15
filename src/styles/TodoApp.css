@@ -1,0 +1,44 @@
+.input-container {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: 10px;
+  width: 20%;
+  font-size: 14px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+  margin: 10px;
+}
+
+.todo-lists {
+  display: flex;
+  margin-left: 30px;
+}
+
+.todo-list {
+  list-style-type: decimal;
+  padding: 0 20px;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .todo-lists {
+    flex-direction: column;
+  }
+
+  .todo-list {
+    list-style-type: disc;
+  }
+}
+
+.status-text {
+  margin-left: 10px;
+}
